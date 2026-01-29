@@ -318,7 +318,7 @@ tables:
             if all_good:
                 status.update(label=":material/celebration: Day 27 data ready! (Day 28+ data optional)", state="complete")
                 st.balloons()
-    else:
+            else:
                 status.update(label="Complete Steps 1-3 for Day 27, Steps 4-5 for Day 28+", state="error")
 
 # Create Agent Tab
